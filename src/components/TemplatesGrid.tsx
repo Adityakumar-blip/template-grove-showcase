@@ -29,13 +29,13 @@ const templates = [
 
 const TemplatesGrid = () => {
   return (
-    <section id="templates" className="py-24 px-4 bg-gray-50">
+    <section id="templates" className="py-24 px-4 bg-background/50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">
             Explore Our Templates
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Choose from our collection of beautiful, responsive landing page templates designed to help you launch faster.
           </p>
         </div>
