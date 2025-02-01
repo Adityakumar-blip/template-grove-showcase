@@ -5,11 +5,12 @@ const Hero = () => {
     <div className="hero-gradient min-h-[60vh] flex items-center justify-center text-white px-4 mt-16">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
-          Beautiful Landing Page Templates
+          "Free & Beautiful Website Templates for Everyone!"
         </h1>
         <p className="text-lg md:text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-          Discover our collection of free, modern, and responsive landing page templates
-          perfect for your next project.
+          Explore our curated collection of stunning, production-ready
+          templates. Built with modern tech stacks, optimized for performance,
+          and completely free for your next project.
         </p>
         <Button
           className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-6"

@@ -8,11 +8,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <span className="text-xl font-bold text-gradient">TemplatesHub</span>
+              <span className="text-xl font-bold text-gradient">
+                Console.log
+              </span>
             </a>
           </div>
-          
-          <div className="hidden md:flex items-center space-x-4">
+
+          {/* <div className="hidden md:flex items-center space-x-4">
             <Button variant="ghost" className="text-foreground hover:bg-white/10" asChild>
               <a href="#templates">Templates</a>
             </Button>
@@ -22,13 +24,13 @@ const Navbar = () => {
             <Button variant="ghost" className="text-foreground hover:bg-white/10" asChild>
               <a href="#contact">Contact</a>
             </Button>
-          </div>
+          </div> */}
 
-          <div className="md:hidden">
+          {/* <div className="md:hidden">
             <Button variant="ghost" size="icon" className="text-foreground">
               <Menu className="h-6 w-6" />
             </Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </nav>
