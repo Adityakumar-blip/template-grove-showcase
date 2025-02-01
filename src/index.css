@@ -42,15 +42,18 @@
 }
 
 .template-card {
-  transition: all 0.3s ease-in-out;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
+  transition: transform 0.2s ease-out;
 }
 
 .template-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-4px) translateZ(0);
 }
 
 .glass-morphism {
-  @apply backdrop-blur-xl bg-white/5 border border-white/10 shadow-[0_4px_12px_-2px_rgba(0,0,0,0.3)];
+  @apply backdrop-blur-xl bg-white/5 border border-white/10;
 }
 
 .text-gradient {
