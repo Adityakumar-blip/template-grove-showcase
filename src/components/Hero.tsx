@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="hero-gradient min-h-[60vh] flex items-center justify-center text-white px-4">
+    <div className="hero-gradient min-h-[60vh] flex items-center justify-center text-white px-4 mt-16">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">
           Beautiful Landing Page Templates
